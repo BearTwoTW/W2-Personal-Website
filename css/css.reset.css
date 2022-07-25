@@ -137,7 +137,7 @@ table {
 /* above css reset */
 
 *,
-*:before,
+*::before,
 *::after {
 	box-sizing: border-box;
 }
