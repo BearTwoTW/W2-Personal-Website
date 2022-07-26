@@ -3,7 +3,7 @@ body {
     font-size: 24px;
 }
 
-img{
+img {
     vertical-align: middle;
 }
 
@@ -13,16 +13,16 @@ h1 {
     padding-bottom: 32px;
 }
 
-a{
+a {
     text-decoration: none;
     color: #000;
 }
 
-.font-weight-700{
+.font-weight-700 {
     font-weight: 700;
 }
 
-.font-weight-900{
+.font-weight-900 {
     font-weight: 900;
 }
 
@@ -31,14 +31,24 @@ a{
     line-height: 84px;
 }
 
+/* container */
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
 /* header */
 
 .header {
-    height: 100vh;
     background-image: url(../img/banner.png);
     background-position: center center;
     background-size: cover;
     color: #fff;
+}
+
+.header .container {
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,7 +72,7 @@ a{
     justify-content: space-around;
 }
 
-.header a img:hover{
+.header a img:hover {
     border-bottom: 1px solid #fff;
 }
 
@@ -70,12 +80,10 @@ a{
 
 .about {
     padding: 56px 0;
-    display: flex;
-    justify-content: center;
     text-align: center;
 }
 
-.about-title{
+.about-title {
     padding-bottom: 40px;
 }
 
@@ -85,7 +93,7 @@ a{
     line-height: 42px;
 }
 
-.about-hr{
+.about-hr {
     width: 384px;
     margin-top: 0;
     margin-bottom: 0;
@@ -95,14 +103,14 @@ a{
     line-height: 42px;
 }
 
-.about-info-list-part2 li{
+.about-info-list-part2 li {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 28px;
 }
 
-.about-info-list-part2 li::before{
+.about-info-list-part2 li::before {
     content: '';
     width: 22px;
     height: 22px;
@@ -113,7 +121,7 @@ a{
 
 /* brand */
 
-.brand{
+.brand {
     color: #fff;
     background: #000;
     padding-top: 56px;
@@ -121,98 +129,93 @@ a{
     text-align: center;
 }
 
-.brand-title{
+.brand-title {
     padding-bottom: 12px;
 }
 
-.brand-subtitle{
+.brand-subtitle {
     line-height: 42px;
     padding-bottom: 32px;
 }
 
-.brand-subtitle-part2{
+.brand-subtitle-part2 {
     font-size: 20px;
     line-height: 30px;
     padding-bottom: 68px;
 }
 
-.brand-img-block{
+.brand-img-block {
     display: flex;
     justify-content: center;
     padding-top: 40px;
 }
 
-.brand-img-block img:nth-child(1){
+.brand-img-block img:nth-child(1) {
     padding-right: 24px;
 }
 
 /* other works */
 
-.other-works{
+.other-works {
     text-align: center;
     padding-top: 56px;
     padding-bottom: 96px;
 }
 
-.other-works-title{
+.other-works-title {
     padding-bottom: 16px;
 }
 
-.other-works-subtitle{
+.other-works-subtitle {
     font-size: 20px;
     line-height: 30px;
     padding-bottom: 56px;
 }
 
-.other-works-block{
+.other-works-list {
     display: flex;
     justify-content: center;
 }
 
-.other-works-list{
-    display: flex;
-    justify-content: center;
-}
-
-.other-works-list li{
+.other-works-list li {
     padding-right: 24px;
     padding-bottom: 48px;
 }
 
-.other-works-list li:nth-last-child(1){
+.other-works-list li:nth-last-child(1) {
     padding-right: 0;
 }
 
-.other-works-list a{
+.other-works-list a {
     display: block;
 }
 
-.other-works-list a:hover{
+.other-works-list a:hover {
     border-bottom: 1px solid #000;
 }
 
-.other-works-list img{
+.other-works-list img {
     padding-bottom: 16px;
 }
 
 /* contact */
 
-.contact{
+.contact {
     color: #fff;
     background: #000;
     text-align: center;
     padding: 64px 0;
 }
 
-.contact-list li{
+.contact-list li {
     padding-top: 16px;
     line-height: 1.5;
 }
 
-.contact a{
+.contact a {
     color: #fff;
 }
 
-.contact a:hover{
+.contact a:hover {
     border-bottom: 1px solid #fff;
 }
